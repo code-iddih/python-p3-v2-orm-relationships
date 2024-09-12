@@ -27,7 +27,7 @@ class Employee:
             CREATE TABLE IF NOT EXISTS employees (
             id INTEGER PRIMARY KEY,
             name TEXT,
-            job_title TEXT,,
+            job_title TEXT,
             department_id INTEGER,
             FOREIGN KEY (department_id) REFERENCES departments(id))
         """
